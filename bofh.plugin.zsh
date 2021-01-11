@@ -471,7 +471,7 @@ function bofh() {
     "Your machine had the fuses in backwards."
     )
     bofh_string="${bofh_quotes[RANDOM % #bofh_quotes + 1]}"
-    bofh_string="$(tr '[:lower:]' '[:upper:]' <<< ${bofh_string:0:1})${bofh_string:1}"
+    bofh_string="\e[96m$(tr '[:lower:]' '[:upper:]' <<< ${bofh_string:0:1})${bofh_string:1}"
     echo $bofh_string
     unset bofh_quotes
 }
