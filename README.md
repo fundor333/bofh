@@ -34,8 +34,4 @@ Example: output of `bofh_cow`:
 
 ## Requirements
 
-- `fortune`
 - `cowsay` if using `bofh_cow`
-- `$ZSH_CUSTOM` set correctly
-
-Available via homebrew, apt, ...
