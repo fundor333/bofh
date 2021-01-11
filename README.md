@@ -20,11 +20,11 @@ plugins=(... bofh)
 Example: output of `bofh_cow`:
 
 ```
-Last login: Fri Jan 30 23:12:26 on ttys001
- ______________________________________
-( When Chuck Norris plays Monopoly, it )
-( affects the actual world economy.    )
- --------------------------------------
+ ____________________________________
+( The new frame relay network hasn't )
+( bedded down the software loop      )
+( transmitter yet.                   )
+ ------------------------------------
         o   ^__^
          o  (oo)\_______
             (__)\       )\/\

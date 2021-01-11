@@ -21,8 +21,8 @@ if [[ ! -f $DIR/bofh.dat ]] || [[ $DIR/bofh.dat -ot $DIR/bofh ]]; then
 fi
 
 # Aliases
-alias bofh="fortune -a $DIR"
-alias bofh_cow="bofh | cowthink"
+alias bofh='fortune -a $ZSH_CUSTOM/plugins/bofh/fortunes/'
+alias bofh_cow='bofh | cowthink'
 }
 
 unset BOFH_PLUGIN_DIR
