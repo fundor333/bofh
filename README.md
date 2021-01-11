@@ -36,5 +36,6 @@ Example: output of `bofh_cow`:
 
 - `fortune`
 - `cowsay` if using `bofh_cow`
+- `$ZSH_CUSTOM` set correctly
 
 Available via homebrew, apt, ...
